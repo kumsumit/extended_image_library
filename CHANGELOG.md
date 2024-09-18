@@ -1,3 +1,29 @@
+## 4.0.5
+
+* Loosen `web` version to `0.3.0~9.x.x`, and fit flutter sdk: >= 3.16
+
+## 4.0.4
+
+* Fix AssetImage flicker(#655)
+
+## 4.0.3
+
+* Loosen `web` version to `0.4.0~0.5.x`.
+* Fix lints.
+
+## 4.0.2
+
+* Upgrade `web` form 0.3.0 to 0.4.0
+
+## 4.0.1
+
+* Fix error that it can't find File.length() method at web.
+
+## 4.0.0
+
+* Migrate to 3.16.0
+* [ExtendedFileImageProvider] use ImmutableBuffer.fromFilePath to prevent crash for big image when we don't need to cache raw data.
+
 ## 3.6.0
 
 * Migrate to 3.13.0
