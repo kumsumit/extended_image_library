@@ -5,17 +5,17 @@ publish_to: none
 homepage: https://github.com/fluttercandies/extended_image_library
 
 environment:
-  sdk: '>=2.19.0 <4.0.0'
+  sdk: '>=3.5.2 <4.0.0'
   flutter: '>=3.13.0'
 
 dependencies:
-  crypto: ^3.0.3
+  crypto: ^3.0.5
   flutter:
     sdk: flutter
 
   http_client_helper: ^3.0.0
-  js: ^0.6.7
-  path: ^1.8.3  
+  js: ^0.7.1
+  path: ^1.9.0  
   path_provider:
     git: https://github.com/kumsumit/path_provider.git
 

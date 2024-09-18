@@ -11,7 +11,6 @@ import 'dart:ui' as ui;
 import 'package:extended_image_library/src/extended_image_provider.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/src/services/dom.dart';
 import 'package:http_client_helper/http_client_helper.dart';
 
 import 'extended_network_image_provider.dart' as image_provider;
